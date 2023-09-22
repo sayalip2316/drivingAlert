@@ -1,0 +1,43 @@
+body {
+    background-image: url("./driver.jpg");
+    background-size: 100% 710px; /* Set specific width and height */
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+  }
+  #heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight:bolder;
+    color:brown;
+  }
+  #start{
+    padding: 10px 20px 10px 20px;
+    background-color: yellow;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+  }
+  #camera{
+   display: flex;
+   justify-content: center;
+  }
+  #canvas{
+     width:300px;
+     height:300px;
+     border-radius: 10px;
+     border: 2px solid yellow;
+  }
+  #label-container{
+    position: absolute;
+            top: 0;
+            right: 0;
+            color:yellow;
+            margin-top: 100px;
+            margin-right: 100px;
+            font-size: 20px;
+  }
+  #status{
+    color: white;
+  }
